@@ -22,7 +22,7 @@ body{
     height: 100vh;
     flex-wrap: wrap;
     font-size:20px; 
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
         
 }
@@ -31,7 +31,7 @@ div[class *="item-"]{
     padding: 10px;
     text-align: center;
     border: 2px solid gray;
-   /* flex-grow:1;*/
+   flex-grow:1;
     /*width: 300px;*/
    /* height: 100px;*/
 }
@@ -42,5 +42,9 @@ div[class *="item-"]:nth-child(odd){
     color:white;
     
 }
-
-
+div[class *="item-"]:nth-child(6){
+    background-color:aqua;
+    color:blue;
+    align-self: center;
+    
+}
